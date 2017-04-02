@@ -11,11 +11,11 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-const NUMBER_WORKERS = 421
+const NUMBER_WORKERS = 42
 const DATE_PARSE_FORM = "1/2/2006 at 3:04 PM MST"
 const DATE_OFFSET = 1167606000 // to decrease the size of outputs
 
-// starts at 109057624
+// starts at http://www.speedtest.net/result/109057624
 var state = 109057624
 var mutex = &sync.Mutex{}
 
