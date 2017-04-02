@@ -2,6 +2,7 @@
 # Simple speedtest.net scraper
 
 ```
+$ make get_vendor
 $ make run-dev
 ```
 
@@ -35,4 +36,4 @@ $ cat 2007-04.output
 ...
 ```
 
-:warning: it should take at least 1y and tens of GB, to scrape the entire speedtest.net database :trollface:
+:warning: It should take at least 1y and tens of GB, to scrape the entire speedtest.net database :trollface:
