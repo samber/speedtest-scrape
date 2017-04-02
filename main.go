@@ -101,7 +101,7 @@ func output_log_file(output chan *SpeedTest) {
 				}
 			}
 
-			line := fmt.Sprintf("%d;%s:%s;%s;%s\n", speedTest.Date.Unix()-DATE_OFFSET, speedTest.Ping, speedTest.Download, speedTest.Upload, speedTest.ISP)
+			line := fmt.Sprintf("%d;%s;%s;%s;%s\n", speedTest.Date.Unix()-DATE_OFFSET, speedTest.Ping, speedTest.Download, speedTest.Upload, speedTest.ISP)
 			if _, err := F.WriteString(line); err != nil {
 				fmt.Println(err)
 			}

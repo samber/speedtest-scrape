@@ -5,7 +5,7 @@
 $ make run-dev
 ```
 
-Output format:
+Output format (csv):
 - short timestamp (please add 1167606000 to get the real time)
 - ping time (ms)
 - download speed (MB/s)
